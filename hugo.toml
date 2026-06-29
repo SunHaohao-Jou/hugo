@@ -1,11 +1,12 @@
-baseURL                = "https://demo.stack.cai.im/"
-locale                 = "en-us"
+baseURL                = "https://SunHaohao-Jou.github.io/"
 title                  = "路西残卷"
-# Theme i18n support
-# See i18n folder for available languages
-defaultContentLanguage = "en"
-# Set hasCJKLanguage to true if DefaultContentLanguage is a CJK language
-# This will make .Summary and .WordCount behave correctly
-hasCJKLanguage         = false
+defaultContentLanguage = "zh"
+hasCJKLanguage         = true
 theme                  = "hugo-theme-stack"
 
+[pagination]
+    pagerSize = 10
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"

@@ -1,8 +1,9 @@
 ---
 menu:
     main:
-        name: 主页
+        name: 文章
         weight: -100
+        url: /post/
         params:
             icon: home
 ---

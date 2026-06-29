@@ -1,0 +1,13 @@
+[[social]]
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/SunHaohao-Jou"
+    [social.params]
+        icon = "brand-github"
+
+[[social]]
+    identifier = "bilibili"
+    name       = "Bilibili"
+    url        = "https://space.bilibili.com/"
+    [social.params]
+        icon = "brand-bilibili"
